@@ -1,12 +1,12 @@
 ---
-title: "Contact Us"
+title: "Contacto"
 description: "meta description"
 draft: false
 info:
-  title: Why you should contact us!
-  description: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit recusandae voluptates doloremque veniam temporibus porro culpa ipsa, nisi soluta minima saepe laboriosam debitis nesciunt.
+  title: Por qué deberías contactarnos
+  description: "Contáctanos para descubrir cómo podemos ayudarte a alcanzar tus objetivos. Nuestro equipo está listo para brindarte soluciones personalizadas y responder a todas tus consultas."
   contacts:
-    - "phone: +88 125 256 452"
-    - "Mail: [info@bigspring.com](mailto:info@bigspring.com)"
-    - "Address: 360 Main rd, Rio, Brazil"
+    - "Teléfono: 2227-00000000"
+    - "E-mail: [contacto@consultoramz.com](mailto:contacto@consultoramz.com)"
+    - "Calle Falsa 123, Lobos"
 ---

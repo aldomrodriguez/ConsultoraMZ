@@ -10,11 +10,11 @@ banner:
 
 # feature
 feature:
-  title: Something You Need To Know
+  title: Nuestros servicios
   features:
-    - name: "Clean Code"
+    - name: "Proceso de búsqueda, "
       icon: "/images/code.svg"
-      content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+      content: "Ofrecemos un servicio de selección
     - name: "Object Oriented"
       icon: "/images/oop.svg"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
@@ -30,6 +30,8 @@ feature:
     - name: "Cloud Support"
       icon: "/images/cloud.svg"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
+
+
 
 # services
 services:
