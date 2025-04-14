@@ -5,6 +5,7 @@ import Cta from "@/layouts/components/Cta.astro";
 import { markdownify } from "@/lib/utils/textConverter";
 import { getEntry } from "astro:content";
 import type { CollectionEntry } from "astro:content";
+import InstagramWidget from '../layouts/components/InstagramWidget.astro';
 
 const homepage = (await getEntry(
   "homepage",
@@ -79,6 +80,8 @@ const { banner, feature, services, workflow, call_to_action } = homepage.data;
       </div>
     </div>
   </section>
+
+  <!-- <InstagramWidget /> -->
 
   <!-- Services -->
   {

@@ -14,7 +14,7 @@ feature:
   features:
     - name: "Proceso de búsqueda, "
       icon: "/images/code.svg"
-      content: "Ofrecemos un servicio de selección
+      content: "Ofrecemos un servicio de selección"
     - name: "Object Oriented"
       icon: "/images/oop.svg"
       content: "Lorem ipsum dolor sit amet consectetur adipisicing elit quam nihil"
