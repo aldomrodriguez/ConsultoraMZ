@@ -6,7 +6,7 @@ if (!isset($_SESSION['loggedin']) || $_SESSION['loggedin'] !== true) {
 }
 
 // Rutas
-$imagesDir = __DIR__ . '/../public/images/';
+$imagesDir = __DIR__ . '/../public/images-blog/';
 $blogDir = __DIR__ . '/../src/content/blog/';
 
 // Validar datos recibidos
@@ -41,7 +41,7 @@ $image = $_FILES['image'];
 $imgExt = pathinfo($image['name'], PATHINFO_EXTENSION);
 $imgName = uniqid('img_', true) . '.' . strtolower($imgExt);
 $imgPath = $imagesDir . $imgName;
-$imgUrl = '/images/' . $imgName;
+$imgUrl = '/images-blog/' . $imgName;
 
 // Subir imagen
 if (!move_uploaded_file($image['tmp_name'], $imgPath)) {
